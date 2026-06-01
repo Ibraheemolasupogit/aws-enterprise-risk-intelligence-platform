@@ -39,6 +39,8 @@ reports/*
 !outputs/data_drift_report.csv
 !outputs/prediction_monitoring_summary.json
 !outputs/model_health_summary.json
+!outputs/batch_risk_scores.csv
+!outputs/realtime_scoring_responses.json
 !reports/.gitkeep
 !reports/*.md
 

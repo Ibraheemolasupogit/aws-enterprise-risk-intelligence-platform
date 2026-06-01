@@ -108,6 +108,7 @@ This framework defines how each project milestone will be evaluated. The goal is
 
 - Goal: Run local batch scoring over a sample dataset.
 - Evidence artifact: Batch inference script and prediction output file.
+- Expected evidence artifacts: `outputs/batch_risk_scores.csv`, `outputs/realtime_scoring_responses.json`, `reports/batch_inference_report.md`, `reports/realtime_inference_simulation_report.md`, `docs/inference_design.md`.
 - Success criteria: Predictions are generated with required IDs, timestamps, scores, and labels.
 - Example metric or quality check: Output row count matches input row count.
 - Portfolio value: Demonstrates operational scoring patterns used in enterprise ML.

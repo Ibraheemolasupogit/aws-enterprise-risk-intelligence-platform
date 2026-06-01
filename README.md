@@ -135,6 +135,14 @@ Milestone 9 creates local monitoring evidence for data drift, prediction drift, 
 python -m risk_platform.monitoring.monitoring_runner
 ```
 
+## Batch Inference And Real-Time Inference Simulation
+
+Milestone 10 creates local scoring workflows before future AWS deployment. Batch inference scores all customers for fraud, churn, anomaly, and overall enterprise risk, while the real-time simulator creates JSON-style single-customer scoring responses.
+
+```bash
+python -m risk_platform.inference.inference_runner
+```
+
 ## AWS Service Mapping
 
 This project does not connect to AWS yet. The folder and module structure is designed so local components can later map to AWS services:

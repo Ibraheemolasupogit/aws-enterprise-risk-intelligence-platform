@@ -1,0 +1,57 @@
+[
+  {
+    "customer_id": "CUST-000042",
+    "request_timestamp": "2026-06-01T10:49:29.996162+00:00",
+    "fraud_risk_score": 0.73631,
+    "churn_risk_score": 0.46734,
+    "anomaly_risk_score": 0.44961,
+    "overall_risk_score": 0.583944,
+    "overall_risk_band": "Medium",
+    "decision_reason": "Overall risk is Medium; strongest signal is fraud risk at 0.736.",
+    "recommended_action": "Fraud review"
+  },
+  {
+    "customer_id": "CUST-000058",
+    "request_timestamp": "2026-06-01T10:49:29.996162+00:00",
+    "fraud_risk_score": 0.78805,
+    "churn_risk_score": 0.249905,
+    "anomaly_risk_score": 0.458624,
+    "overall_risk_score": 0.54425,
+    "overall_risk_band": "Medium",
+    "decision_reason": "Overall risk is Medium; strongest signal is fraud risk at 0.788.",
+    "recommended_action": "Fraud review"
+  },
+  {
+    "customer_id": "CUST-000093",
+    "request_timestamp": "2026-06-01T10:49:29.996162+00:00",
+    "fraud_risk_score": 0.773931,
+    "churn_risk_score": 0.28918,
+    "anomaly_risk_score": 0.387567,
+    "overall_risk_score": 0.531915,
+    "overall_risk_band": "Medium",
+    "decision_reason": "Overall risk is Medium; strongest signal is fraud risk at 0.774.",
+    "recommended_action": "Fraud review"
+  },
+  {
+    "customer_id": "CUST-000130",
+    "request_timestamp": "2026-06-01T10:49:29.996162+00:00",
+    "fraud_risk_score": 0.703475,
+    "churn_risk_score": 0.32349,
+    "anomaly_risk_score": 0.382097,
+    "overall_risk_score": 0.509135,
+    "overall_risk_band": "Medium",
+    "decision_reason": "Overall risk is Medium; strongest signal is fraud risk at 0.703.",
+    "recommended_action": "Fraud review"
+  },
+  {
+    "customer_id": "CUST-000252",
+    "request_timestamp": "2026-06-01T10:49:29.996162+00:00",
+    "fraud_risk_score": 0.769151,
+    "churn_risk_score": 0.164205,
+    "anomaly_risk_score": 0.448685,
+    "overall_risk_score": 0.507551,
+    "overall_risk_band": "Medium",
+    "decision_reason": "Overall risk is Medium; strongest signal is fraud risk at 0.769.",
+    "recommended_action": "Fraud review"
+  }
+]

@@ -1,0 +1,501 @@
+customer_id,fraud_risk_score,churn_risk_score,anomaly_score,fraud_risk_band,churn_risk_band,anomaly_risk_band,overall_risk_score,overall_risk_band,recommended_action
+CUST-000042,0.73631,0.46734,0.44961,High,Medium,Medium,0.583944,Medium,Fraud review
+CUST-000058,0.78805,0.249905,0.458624,High,Low,Medium,0.54425,Medium,Fraud review
+CUST-000093,0.773931,0.28918,0.387567,High,Low,Medium,0.531915,Medium,Fraud review
+CUST-000130,0.703475,0.32349,0.382097,High,Low,Medium,0.509135,Medium,Fraud review
+CUST-000252,0.769151,0.164205,0.448685,High,Low,Medium,0.507551,Medium,Fraud review
+CUST-000350,0.706987,0.286895,0.374674,High,Low,Medium,0.497881,Medium,Fraud review
+CUST-000207,0.624661,0.329555,0.465306,Medium,Low,Medium,0.49629,Medium,Monitor customer
+CUST-000283,0.708908,0.30324,0.343601,High,Low,Low,0.495881,Medium,Fraud review
+CUST-000018,0.653357,0.26032,0.489367,Medium,Low,Medium,0.494448,Medium,Monitor customer
+CUST-000015,0.689587,0.136625,0.556468,Medium,Low,Medium,0.490419,Medium,Monitor customer
+CUST-000315,0.64319,0.33749,0.363239,Medium,Low,Medium,0.481492,Medium,Monitor customer
+CUST-000329,0.701448,0.2499,0.34564,High,Low,Low,0.477032,Medium,Fraud review
+CUST-000171,0.676252,0.25102,0.373969,Medium,Low,Medium,0.473112,Medium,Monitor customer
+CUST-000367,0.685644,0.22327,0.343331,Medium,Low,Low,0.461354,Medium,Monitor customer
+CUST-000045,0.70774,0.16135,0.34473,High,Low,Low,0.45307,Medium,Fraud review
+CUST-000388,0.532659,0.372855,0.397204,Medium,Medium,Medium,0.450854,Medium,Monitor customer
+CUST-000438,0.643398,0.22016,0.34327,Medium,Low,Low,0.441395,Medium,Monitor customer
+CUST-000418,0.51511,0.36185,0.40042,Medium,Medium,Medium,0.44046,Medium,Monitor customer
+CUST-000043,0.612131,0.17188,0.438714,Medium,Low,Medium,0.436701,Medium,Monitor customer
+CUST-000332,0.702432,0.153505,0.286272,High,Low,Low,0.433714,Medium,Fraud review
+CUST-000262,0.597799,0.347575,0.240041,Medium,Low,Low,0.433292,Medium,Monitor customer
+CUST-000457,0.541627,0.354775,0.320716,Medium,Medium,Low,0.430344,Medium,Monitor customer
+CUST-000197,0.505291,0.30271,0.442847,Medium,Low,Medium,0.428906,Medium,Monitor customer
+CUST-000395,0.577973,0.283305,0.316934,Medium,Low,Low,0.424313,Medium,Monitor customer
+CUST-000152,0.54,0.22021,0.440748,Medium,Low,Medium,0.41925,Medium,Monitor customer
+CUST-000135,0.531476,0.359395,0.288601,Medium,Medium,Low,0.419133,Medium,Monitor customer
+CUST-000353,0.524994,0.31909,0.315081,Medium,Low,Low,0.410745,Medium,Monitor customer
+CUST-000405,0.349743,0.51675,0.379695,Low,Medium,Medium,0.407333,Medium,Monitor customer
+CUST-000435,0.590092,0.1994,0.313348,Medium,Low,Low,0.403698,Medium,Monitor customer
+CUST-000430,0.640715,0.18907,0.231029,Medium,Low,Low,0.4028,Medium,Monitor customer
+CUST-000090,0.50727,0.18388,0.475747,Medium,Low,Medium,0.402372,Medium,Monitor customer
+CUST-000364,0.639398,0.149825,0.273934,Medium,Low,Low,0.40116,Medium,Monitor customer
+CUST-000248,0.529283,0.2464,0.354651,Medium,Low,Medium,0.40076,Medium,Monitor customer
+CUST-000317,0.522798,0.34059,0.250655,Medium,Low,Low,0.4001,Medium,Monitor customer
+CUST-000381,0.477915,0.28087,0.393523,Medium,Low,Medium,0.397703,Medium,Monitor customer
+CUST-000084,0.576606,0.20721,0.290072,Medium,Low,Low,0.394154,Medium,Monitor customer
+CUST-000121,0.640041,0.14878,0.231233,Medium,Low,Low,0.390461,Medium,Monitor customer
+CUST-000375,0.544948,0.16472,0.374764,Medium,Low,Medium,0.388334,Medium,Monitor customer
+CUST-000132,0.608265,0.11229,0.320673,Medium,Low,Low,0.387574,Medium,Monitor customer
+CUST-000180,0.610635,0.1322,0.290452,Medium,Low,Low,0.387059,Medium,Monitor customer
+CUST-000203,0.61445,0.113925,0.300433,Medium,Low,Low,0.385788,Medium,Monitor customer
+CUST-000184,0.407458,0.39242,0.322255,Medium,Medium,Low,0.381646,Medium,Monitor customer
+CUST-000447,0.532955,0.256105,0.251381,Medium,Low,Low,0.379507,Medium,Monitor customer
+CUST-000458,0.490433,0.29525,0.274776,Medium,Low,Low,0.377964,Medium,Monitor customer
+CUST-000349,0.552812,0.15613,0.308465,Medium,Low,Low,0.372721,Medium,Monitor customer
+CUST-000291,0.539868,0.21004,0.264345,Medium,Low,Low,0.372039,Medium,Monitor customer
+CUST-000047,0.451003,0.371625,0.228483,Medium,Medium,Low,0.37156,Medium,Monitor customer
+CUST-000407,0.595712,0.11102,0.273204,Medium,Low,Low,0.369677,Medium,Monitor customer
+CUST-000389,0.579011,0.130275,0.259477,Medium,Low,Low,0.364507,Medium,Monitor customer
+CUST-000193,0.467014,0.279095,0.272568,Medium,Low,Low,0.362027,Medium,Monitor customer
+CUST-000144,0.511744,0.231335,0.249034,Medium,Low,Low,0.361944,Medium,Monitor customer
+CUST-000292,0.387851,0.41359,0.248035,Medium,Medium,Low,0.360619,Medium,Monitor customer
+CUST-000079,0.282302,0.40114,0.445927,Low,Medium,Medium,0.35886,Medium,Monitor customer
+CUST-000341,0.497941,0.213475,0.281309,Medium,Low,Low,0.358443,Medium,Monitor customer
+CUST-000051,0.574299,0.120225,0.252628,Medium,Low,Low,0.357659,Medium,Monitor customer
+CUST-000241,0.603557,0.07357,0.247316,Medium,Low,Low,0.355501,Medium,Monitor customer
+CUST-000137,0.330434,0.383085,0.366335,Low,Medium,Medium,0.355205,Medium,Monitor customer
+CUST-000290,0.394084,0.3833,0.249998,Medium,Medium,Low,0.354827,Medium,Monitor customer
+CUST-000278,0.525041,0.19446,0.238142,Medium,Low,Low,0.354142,Medium,Monitor customer
+CUST-000396,0.530429,0.2145,0.204389,Medium,Low,Low,0.35414,Medium,Monitor customer
+CUST-000081,0.336499,0.462985,0.243426,Low,Medium,Low,0.351177,Medium,Monitor customer
+CUST-000041,0.512898,0.201195,0.236911,Medium,Low,Low,0.35039,Medium,Monitor customer
+CUST-000392,0.491297,0.194145,0.26946,Medium,Low,Low,0.346692,Low,No action required
+CUST-000368,0.524966,0.158085,0.24738,Medium,Low,Low,0.345505,Low,No action required
+CUST-000474,0.557411,0.082315,0.279887,Medium,Low,Low,0.345501,Low,No action required
+CUST-000382,0.449332,0.318915,0.1873,Medium,Low,Low,0.344699,Low,No action required
+CUST-000001,0.518149,0.154405,0.247222,Medium,Low,Low,0.341294,Low,No action required
+CUST-000229,0.48442,0.224185,0.220568,Medium,Low,Low,0.340387,Low,No action required
+CUST-000140,0.362877,0.33216,0.300371,Medium,Low,Low,0.338035,Low,No action required
+CUST-000095,0.459505,0.25266,0.218626,Medium,Low,Low,0.337232,Low,No action required
+CUST-000127,0.4959,0.089865,0.343878,Medium,Low,Low,0.336084,Low,No action required
+CUST-000420,0.512118,0.18467,0.200918,Medium,Low,Low,0.336084,Low,No action required
+CUST-000160,0.534168,0.08251,0.269071,Medium,Low,Low,0.332396,Low,No action required
+CUST-000377,0.325163,0.41506,0.231596,Low,Medium,Low,0.32874,Low,No action required
+CUST-000046,0.457466,0.24537,0.1963,Medium,Low,Low,0.328546,Low,No action required
+CUST-000227,0.324846,0.38843,0.246363,Low,Medium,Low,0.3243,Low,No action required
+CUST-000324,0.447086,0.289785,0.141267,Medium,Low,Low,0.323441,Low,No action required
+CUST-000182,0.281309,0.410815,0.293534,Low,Medium,Low,0.323217,Low,No action required
+CUST-000316,0.450273,0.185905,0.253861,Medium,Low,Low,0.32186,Low,No action required
+CUST-000245,0.396674,0.322725,0.180125,Medium,Low,Low,0.320352,Low,No action required
+CUST-000153,0.465297,0.203935,0.195667,Medium,Low,Low,0.319481,Low,No action required
+CUST-000423,0.420803,0.16574,0.319429,Medium,Low,Low,0.318941,Low,No action required
+CUST-000136,0.513078,0.156065,0.163111,Medium,Low,Low,0.318482,Low,No action required
+CUST-000176,0.269156,0.414925,0.284533,Low,Medium,Low,0.316731,Low,No action required
+CUST-000125,0.45174,0.225735,0.180671,Medium,Low,Low,0.316171,Low,No action required
+CUST-000446,0.383984,0.365215,0.131375,Medium,Medium,Low,0.315201,Low,No action required
+CUST-000357,0.447671,0.17534,0.243464,Medium,Low,Low,0.31492,Low,No action required
+CUST-000352,0.402292,0.295635,0.17827,Medium,Low,Low,0.314289,Low,No action required
+CUST-000358,0.267871,0.3907,0.298625,Low,Medium,Low,0.312408,Low,No action required
+CUST-000500,0.457247,0.20958,0.174794,Medium,Low,Low,0.312334,Low,No action required
+CUST-000268,0.46857,0.17136,0.177957,Medium,Low,Low,0.306754,Low,No action required
+CUST-000118,0.268355,0.415435,0.238547,Low,Medium,Low,0.305027,Low,No action required
+CUST-000033,0.326047,0.26959,0.308082,Low,Low,Low,0.304619,Low,No action required
+CUST-000348,0.38579,0.28329,0.184014,Medium,Low,Low,0.304596,Low,No action required
+CUST-000428,0.346297,0.23444,0.307737,Low,Low,Low,0.3031,Low,No action required
+CUST-000025,0.408083,0.257795,0.164182,Medium,Low,Low,0.302021,Low,No action required
+CUST-000370,0.196779,0.51274,0.238163,Low,Medium,Low,0.301913,Low,No action required
+CUST-000269,0.338146,0.279195,0.263356,Low,Low,Low,0.301763,Low,No action required
+CUST-000373,0.45701,0.14811,0.204367,Medium,Low,Low,0.301179,Low,No action required
+CUST-000484,0.325355,0.275405,0.288155,Low,Low,Low,0.30107,Low,No action required
+CUST-000190,0.389102,0.320475,0.118279,Medium,Low,Low,0.300808,Low,No action required
+CUST-000419,0.257822,0.39133,0.245077,Low,Medium,Low,0.294688,Low,No action required
+CUST-000461,0.412126,0.2123,0.177305,Medium,Low,Low,0.293473,Low,No action required
+CUST-000028,0.136028,0.52237,0.299634,Low,Medium,Low,0.292832,Low,No action required
+CUST-000064,0.265771,0.294645,0.338949,Low,Low,Low,0.292728,Low,No action required
+CUST-000007,0.393791,0.25263,0.158658,Medium,Low,Low,0.292659,Low,No action required
+CUST-000050,0.455359,0.10653,0.216636,Medium,Low,Low,0.29103,Low,No action required
+CUST-000465,0.446944,0.16177,0.165264,Medium,Low,Low,0.290972,Low,No action required
+CUST-000426,0.324428,0.27092,0.250808,Low,Low,Low,0.289971,Low,No action required
+CUST-000431,0.398308,0.132605,0.282853,Medium,Low,Low,0.289733,Low,No action required
+CUST-000162,0.259993,0.38934,0.222854,Low,Medium,Low,0.289512,Low,No action required
+CUST-000170,0.381641,0.162195,0.266036,Medium,Low,Low,0.286906,Low,No action required
+CUST-000390,0.521369,0.037125,0.160996,Medium,Low,Low,0.286003,Low,No action required
+CUST-000267,0.405716,0.133615,0.248135,Medium,Low,Low,0.28469,Low,No action required
+CUST-000096,0.383985,0.20802,0.192124,Medium,Low,Low,0.28323,Low,No action required
+CUST-000387,0.396437,0.20579,0.15316,Medium,Low,Low,0.278424,Low,No action required
+CUST-000022,0.324903,0.217285,0.266137,Low,Low,Low,0.277926,Low,No action required
+CUST-000032,0.385466,0.210915,0.156282,Medium,Low,Low,0.275805,Low,No action required
+CUST-000244,0.276572,0.252155,0.300942,Low,Low,Low,0.275339,Low,No action required
+CUST-000323,0.328088,0.204855,0.262592,Low,Low,Low,0.274744,Low,No action required
+CUST-000309,0.198502,0.31129,0.362279,Low,Low,Medium,0.273283,Low,No action required
+CUST-000355,0.412594,0.134745,0.186535,Medium,Low,Low,0.272725,Low,No action required
+CUST-000445,0.418077,0.144495,0.160856,Medium,Low,Low,0.271697,Low,No action required
+CUST-000077,0.387722,0.147825,0.208031,Medium,Low,Low,0.27083,Low,No action required
+CUST-000462,0.222545,0.329395,0.284579,Low,Low,Low,0.270108,Low,No action required
+CUST-000038,0.455918,0.1101,0.127423,Medium,Low,Low,0.270049,Low,No action required
+CUST-000138,0.375659,0.213135,0.14641,Medium,Low,Low,0.26959,Low,No action required
+CUST-000147,0.463355,0.073105,0.144494,Medium,Low,Low,0.266565,Low,No action required
+CUST-000192,0.136984,0.47907,0.241437,Low,Medium,Low,0.265723,Low,No action required
+CUST-000429,0.27813,0.27466,0.230272,Low,Low,Low,0.265124,Low,No action required
+CUST-000277,0.421654,0.136335,0.1349,Medium,Low,Low,0.26437,Low,No action required
+CUST-000326,0.327925,0.146065,0.291306,Low,Low,Low,0.264212,Low,No action required
+CUST-000155,0.330241,0.267315,0.132575,Low,Low,Low,0.261947,Low,No action required
+CUST-000106,0.130626,0.442795,0.270607,Low,Medium,Low,0.259272,Low,No action required
+CUST-000327,0.37851,0.15621,0.167607,Medium,Low,Low,0.259094,Low,No action required
+CUST-000443,0.261068,0.290335,0.217501,Low,Low,Low,0.258956,Low,No action required
+CUST-000213,0.423604,0.11745,0.129336,Medium,Low,Low,0.258191,Low,No action required
+CUST-000218,0.20216,0.34558,0.252179,Low,Low,Low,0.257691,Low,No action required
+CUST-000408,0.133528,0.456595,0.240097,Low,Medium,Low,0.25709,Low,No action required
+CUST-000044,0.221495,0.32167,0.236097,Low,Low,Low,0.255198,Low,No action required
+CUST-000221,0.262056,0.272835,0.21949,Low,Low,Low,0.254648,Low,No action required
+CUST-000463,0.403156,0.136165,0.129054,Medium,Low,Low,0.254533,Low,No action required
+CUST-000054,0.404362,0.11548,0.148953,Medium,Low,Low,0.253845,Low,No action required
+CUST-000115,0.448753,0.07625,0.113208,Medium,Low,Low,0.253116,Low,No action required
+CUST-000097,0.388568,0.14059,0.137757,Medium,Low,Low,0.251472,Low,No action required
+CUST-000163,0.198367,0.308715,0.272564,Low,Low,Low,0.250021,Low,No action required
+CUST-000379,0.38417,0.138295,0.141833,Medium,Low,Low,0.249823,Low,No action required
+CUST-000334,0.137846,0.44416,0.217845,Low,Medium,Low,0.24974,Low,No action required
+CUST-000351,0.261552,0.253745,0.222927,Low,Low,Low,0.249554,Low,No action required
+CUST-000225,0.074901,0.5339,0.218294,Low,Medium,Low,0.248449,Low,No action required
+CUST-000078,0.32157,0.17792,0.201001,Low,Low,Low,0.248333,Low,No action required
+CUST-000282,0.267257,0.24458,0.218116,Low,Low,Low,0.248169,Low,No action required
+CUST-000110,0.257004,0.263045,0.207345,Low,Low,Low,0.246402,Low,No action required
+CUST-000236,0.321191,0.15057,0.224798,Low,Low,Low,0.245906,Low,No action required
+CUST-000258,0.326232,0.20966,0.13138,Low,Low,Low,0.242547,Low,No action required
+CUST-000075,0.38853,0.12897,0.101047,Medium,Low,Low,0.238791,Low,No action required
+CUST-000082,0.221005,0.279315,0.220844,Low,Low,Low,0.238458,Low,No action required
+CUST-000181,0.342061,0.204265,0.091704,Low,Low,Low,0.238133,Low,No action required
+CUST-000279,0.205607,0.206575,0.333857,Low,Low,Low,0.23796,Low,No action required
+CUST-000380,0.217999,0.26295,0.243651,Low,Low,Low,0.237897,Low,No action required
+CUST-000101,0.132258,0.405635,0.225764,Low,Medium,Low,0.237648,Low,No action required
+CUST-000303,0.147291,0.342565,0.273798,Low,Low,Low,0.2375,Low,No action required
+CUST-000294,0.332061,0.19033,0.122189,Low,Low,Low,0.237074,Low,No action required
+CUST-000071,0.340817,0.127295,0.177756,Low,Low,Low,0.235995,Low,No action required
+CUST-000072,0.331173,0.20592,0.100011,Low,Low,Low,0.235807,Low,No action required
+CUST-000257,0.273336,0.19937,0.209907,Low,Low,Low,0.235289,Low,No action required
+CUST-000111,0.333029,0.19101,0.104368,Low,Low,Low,0.233258,Low,No action required
+CUST-000444,0.20179,0.292975,0.216752,Low,Low,Low,0.232886,Low,No action required
+CUST-000057,0.272821,0.19644,0.202746,Low,Low,Low,0.232388,Low,No action required
+CUST-000063,0.218643,0.242585,0.24292,Low,Low,Low,0.231895,Low,No action required
+CUST-000475,0.276892,0.18851,0.201556,Low,Low,Low,0.231543,Low,No action required
+CUST-000177,0.279856,0.196875,0.184806,Low,Low,Low,0.231199,Low,No action required
+CUST-000318,0.323615,0.122655,0.19445,Low,Low,Low,0.231036,Low,No action required
+CUST-000361,0.276154,0.20714,0.178354,Low,Low,Low,0.231,Low,No action required
+CUST-000402,0.383564,0.100835,0.111889,Medium,Low,Low,0.230827,Low,No action required
+CUST-000253,0.321849,0.194645,0.106977,Low,Low,Low,0.22997,Low,No action required
+CUST-000335,0.332726,0.133785,0.156452,Low,Low,Low,0.228975,Low,No action required
+CUST-000194,0.19483,0.303835,0.197292,Low,Low,Low,0.228147,Low,No action required
+CUST-000342,0.338731,0.096215,0.184979,Low,Low,Low,0.227538,Low,No action required
+CUST-000016,0.135435,0.365135,0.224792,Low,Medium,Low,0.226684,Low,No action required
+CUST-000164,0.350337,0.153215,0.089137,Medium,Low,Low,0.2259,Low,No action required
+CUST-000470,0.356902,0.090815,0.151819,Medium,Low,Low,0.225805,Low,No action required
+CUST-000204,0.206693,0.29974,0.169123,Low,Low,Low,0.225215,Low,No action required
+CUST-000109,0.209936,0.190645,0.293554,Low,Low,Low,0.225053,Low,No action required
+CUST-000187,0.195333,0.30747,0.177739,Low,Low,Low,0.224576,Low,No action required
+CUST-000275,0.132395,0.414175,0.160748,Low,Medium,Low,0.224017,Low,No action required
+CUST-000394,0.144236,0.30912,0.258958,Low,Low,Low,0.222382,Low,No action required
+CUST-000398,0.2122,0.276145,0.168966,Low,Low,Low,0.220575,Low,No action required
+CUST-000094,0.219898,0.256685,0.176045,Low,Low,Low,0.219971,Low,No action required
+CUST-000455,0.271506,0.161075,0.196561,Low,Low,Low,0.21964,Low,No action required
+CUST-000410,0.201303,0.26845,0.190741,Low,Low,Low,0.218807,Low,No action required
+CUST-000448,0.273106,0.174825,0.169333,Low,Low,Low,0.217678,Low,No action required
+CUST-000325,0.136186,0.364375,0.186528,Low,Medium,Low,0.217228,Low,No action required
+CUST-000288,0.205367,0.25596,0.191314,Low,Low,Low,0.217032,Low,No action required
+CUST-000360,0.340447,0.12873,0.098185,Low,Low,Low,0.216366,Low,No action required
+CUST-000406,0.33527,0.10781,0.128089,Low,Low,Low,0.215237,Low,No action required
+CUST-000450,0.387945,0.06239,0.084938,Medium,Low,Low,0.214527,Low,No action required
+CUST-000471,0.142247,0.3355,0.198827,Low,Low,Low,0.214368,Low,No action required
+CUST-000237,0.193199,0.286335,0.163603,Low,Low,Low,0.213741,Low,No action required
+CUST-000415,0.271091,0.143565,0.192361,Low,Low,Low,0.213151,Low,No action required
+CUST-000157,0.215112,0.236805,0.180428,Low,Low,Low,0.212949,Low,No action required
+CUST-000399,0.338023,0.10964,0.11114,Low,Low,Low,0.212787,Low,No action required
+CUST-000215,0.192019,0.194715,0.271052,Low,Low,Low,0.212586,Low,No action required
+CUST-000223,0.22201,0.23526,0.167928,Low,Low,Low,0.212465,Low,No action required
+CUST-000320,0.32681,0.03967,0.213949,Low,Low,Low,0.212453,Low,No action required
+CUST-000442,0.142662,0.297655,0.235192,Low,Low,Low,0.212292,Low,No action required
+CUST-000374,0.094996,0.372825,0.228709,Low,Medium,Low,0.211773,Low,No action required
+CUST-000066,0.192677,0.243395,0.207553,Low,Low,Low,0.211611,Low,No action required
+CUST-000301,0.15605,0.30488,0.198181,Low,Low,Low,0.211232,Low,No action required
+CUST-000466,0.070504,0.446425,0.179753,Low,Medium,Low,0.210593,Low,No action required
+CUST-000158,0.010779,0.523775,0.190521,Low,Medium,Low,0.209613,Low,No action required
+CUST-000486,0.320463,0.16487,0.061301,Low,Low,Low,0.208995,Low,No action required
+CUST-000167,0.277303,0.142575,0.160864,Low,Low,Low,0.207775,Low,No action required
+CUST-000322,0.319982,0.13428,0.090497,Low,Low,Low,0.2069,Low,No action required
+CUST-000179,0.202749,0.208585,0.21018,Low,Low,Low,0.206358,Low,No action required
+CUST-000478,0.12763,0.319055,0.212608,Low,Low,Low,0.206302,Low,No action required
+CUST-000376,0.144329,0.297515,0.200644,Low,Low,Low,0.204364,Low,No action required
+CUST-000296,0.067169,0.437245,0.167698,Low,Medium,Low,0.203324,Low,No action required
+CUST-000369,0.064849,0.33653,0.291147,Low,Low,Low,0.202928,Low,No action required
+CUST-000356,0.071091,0.42231,0.174103,Low,Medium,Low,0.20221,Low,No action required
+CUST-000498,0.261715,0.126195,0.182486,Low,Low,Low,0.201252,Low,No action required
+CUST-000216,0.134173,0.321815,0.175016,Low,Low,Low,0.200676,Low,No action required
+CUST-000232,0.203383,0.203025,0.192234,Low,Low,Low,0.200488,Low,No action required
+CUST-000476,0.13496,0.26579,0.237857,Low,Low,Low,0.199933,Low,No action required
+CUST-000035,0.201234,0.211915,0.182172,Low,Low,Low,0.199673,Low,No action required
+CUST-000049,0.322511,0.101515,0.088257,Low,Low,Low,0.197649,Low,No action required
+CUST-000002,0.1982,0.20331,0.188483,Low,Low,Low,0.197304,Low,No action required
+CUST-000186,0.077517,0.317975,0.267487,Low,Low,Low,0.197147,Low,No action required
+CUST-000363,0.079783,0.32265,0.256603,Low,Low,Low,0.196848,Low,No action required
+CUST-000331,0.134635,0.27966,0.204862,Low,Low,Low,0.195699,Low,No action required
+CUST-000371,0.076918,0.36654,0.203838,Low,Medium,Low,0.195535,Low,No action required
+CUST-000037,0.128285,0.304915,0.180565,Low,Low,Low,0.194344,Low,No action required
+CUST-000345,0.068885,0.323655,0.26312,Low,Low,Low,0.193875,Low,No action required
+CUST-000017,0.076244,0.359675,0.2049,Low,Medium,Low,0.193437,Low,No action required
+CUST-000432,0.130578,0.315445,0.159639,Low,Low,Low,0.193303,Low,No action required
+CUST-000112,0.077537,0.32958,0.237483,Low,Low,Low,0.193136,Low,No action required
+CUST-000168,0.133612,0.19985,0.289845,Low,Low,Low,0.192542,Low,No action required
+CUST-000169,0.071051,0.389605,0.173051,Low,Medium,Low,0.192117,Low,No action required
+CUST-000156,0.141958,0.26671,0.190517,Low,Low,Low,0.191523,Low,No action required
+CUST-000456,0.137255,0.24041,0.227795,Low,Low,Low,0.190836,Low,No action required
+CUST-000400,0.07393,0.35568,0.203096,Low,Medium,Low,0.190746,Low,No action required
+CUST-000347,0.152604,0.25786,0.172808,Low,Low,Low,0.189232,Low,No action required
+CUST-000385,0.082373,0.31394,0.2317,Low,Low,Low,0.189175,Low,No action required
+CUST-000451,0.194915,0.192815,0.173239,Low,Low,Low,0.188866,Low,No action required
+CUST-000202,0.089785,0.2671,0.270869,Low,Low,Low,0.18825,Low,No action required
+CUST-000139,0.212005,0.16251,0.16946,Low,Low,Low,0.18652,Low,No action required
+CUST-000386,0.148977,0.253705,0.171247,Low,Low,Low,0.185963,Low,No action required
+CUST-000266,0.197017,0.188035,0.155273,Low,Low,Low,0.183886,Low,No action required
+CUST-000310,0.192761,0.170915,0.179844,Low,Low,Low,0.182978,Low,No action required
+CUST-000250,0.132932,0.245285,0.196201,Low,Low,Low,0.182455,Low,No action required
+CUST-000148,0.205745,0.17046,0.15383,Low,Low,Low,0.182181,Low,No action required
+CUST-000403,0.321612,0.087495,0.044673,Low,Low,Low,0.182142,Low,No action required
+CUST-000284,0.004655,0.513605,0.10297,Low,Medium,Low,0.181919,Low,No action required
+CUST-000289,0.075256,0.343315,0.180006,Low,Low,Low,0.181861,Low,No action required
+CUST-000010,0.144253,0.26611,0.146831,Low,Low,Low,0.181455,Low,No action required
+CUST-000494,0.067459,0.353155,0.180056,Low,Medium,Low,0.181317,Low,No action required
+CUST-000298,0.258875,0.073705,0.15387,Low,Low,Low,0.177073,Low,No action required
+CUST-000243,0.198419,0.15551,0.163116,Low,Low,Low,0.176721,Low,No action required
+CUST-000281,0.079646,0.336535,0.158663,Low,Low,Low,0.176467,Low,No action required
+CUST-000383,0.255085,0.085325,0.141419,Low,Low,Low,0.17574,Low,No action required
+CUST-000238,0.257238,0.07742,0.144356,Low,Low,Low,0.175072,Low,No action required
+CUST-000053,0.148913,0.1949,0.197583,Low,Low,Low,0.174877,Low,No action required
+CUST-000048,0.143366,0.22105,0.17603,Low,Low,Low,0.174837,Low,No action required
+CUST-000304,0.196778,0.14332,0.166121,Low,Low,Low,0.173076,Low,No action required
+CUST-000206,0.21146,0.1359,0.148046,Low,Low,Low,0.172938,Low,No action required
+CUST-000039,0.069661,0.372105,0.118296,Low,Medium,Low,0.172553,Low,No action required
+CUST-000495,0.127595,0.232775,0.177444,Low,Low,Low,0.171611,Low,No action required
+CUST-000210,0.207388,0.1508,0.130238,Low,Low,Low,0.171124,Low,No action required
+CUST-000114,0.131327,0.235235,0.165334,Low,Low,Low,0.171001,Low,No action required
+CUST-000124,0.085511,0.323555,0.136697,Low,Low,Low,0.169721,Low,No action required
+CUST-000062,0.079666,0.316735,0.153684,Low,Low,Low,0.169291,Low,No action required
+CUST-000425,0.20404,0.131105,0.149349,Low,Low,Low,0.168487,Low,No action required
+CUST-000224,0.144138,0.20413,0.168424,Low,Low,Low,0.168207,Low,No action required
+CUST-000029,0.088081,0.226545,0.239913,Low,Low,Low,0.167578,Low,No action required
+CUST-000074,0.067929,0.281245,0.206481,Low,Low,Low,0.166562,Low,No action required
+CUST-000482,0.200612,0.13188,0.144812,Low,Low,Low,0.166042,Low,No action required
+CUST-000004,0.192274,0.137005,0.153186,Low,Low,Low,0.165921,Low,No action required
+CUST-000493,0.141479,0.176845,0.194199,Low,Low,Low,0.165269,Low,No action required
+CUST-000436,0.195117,0.134795,0.146032,Low,Low,Low,0.164749,Low,No action required
+CUST-000255,0.068235,0.26477,0.217127,Low,Low,Low,0.164418,Low,No action required
+CUST-000020,0.067082,0.268725,0.214304,Low,Low,Low,0.16438,Low,No action required
+CUST-000468,0.145053,0.223495,0.127912,Low,Low,Low,0.1643,Low,No action required
+CUST-000208,0.137142,0.192235,0.178155,Low,Low,Low,0.163923,Low,No action required
+CUST-000143,0.069111,0.30565,0.163115,Low,Low,Low,0.163574,Low,No action required
+CUST-000030,0.209753,0.10133,0.153346,Low,Low,Low,0.163124,Low,No action required
+CUST-000242,0.1338,0.206945,0.162431,Low,Low,Low,0.162901,Low,No action required
+CUST-000490,0.147945,0.20762,0.134005,Low,Low,Low,0.162362,Low,No action required
+CUST-000085,0.216784,0.111505,0.12433,Low,Low,Low,0.162087,Low,No action required
+CUST-000354,0.137459,0.230175,0.124177,Low,Low,Low,0.161953,Low,No action required
+CUST-000378,0.00226,0.394645,0.169369,Low,Medium,Low,0.161753,Low,No action required
+CUST-000391,0.074871,0.22894,0.236416,Low,Low,Low,0.161478,Low,No action required
+CUST-000052,0.070451,0.31929,0.133388,Low,Low,Low,0.160837,Low,No action required
+CUST-000102,0.017081,0.29962,0.251868,Low,Low,Low,0.160539,Low,No action required
+CUST-000488,0.067304,0.288075,0.174869,Low,Low,Low,0.160427,Low,No action required
+CUST-000416,0.143142,0.206965,0.135501,Low,Low,Low,0.160379,Low,No action required
+CUST-000228,0.074333,0.306925,0.138989,Low,Low,Low,0.160275,Low,No action required
+CUST-000178,0.074001,0.26085,0.193164,Low,Low,Low,0.159846,Low,No action required
+CUST-000453,0.208233,0.11435,0.125303,Low,Low,Low,0.159336,Low,No action required
+CUST-000092,0.078855,0.247595,0.19678,Low,Low,Low,0.158958,Low,No action required
+CUST-000287,0.065911,0.33042,0.119745,Low,Low,Low,0.158722,Low,No action required
+CUST-000159,0.132202,0.18255,0.172249,Low,Low,Low,0.157318,Low,No action required
+CUST-000485,0.071241,0.303155,0.137145,Low,Low,Low,0.157291,Low,No action required
+CUST-000260,0.204603,0.09773,0.141325,Low,Low,Low,0.156722,Low,No action required
+CUST-000161,0.005077,0.34321,0.20532,Low,Low,Low,0.156578,Low,No action required
+CUST-000411,0.135458,0.20268,0.13904,Low,Low,Low,0.15652,Low,No action required
+CUST-000433,0.072648,0.200645,0.251233,Low,Low,Low,0.155693,Low,No action required
+CUST-000397,0.003416,0.39297,0.142579,Low,Medium,Low,0.155073,Low,No action required
+CUST-000222,0.066982,0.222605,0.2168,Low,Low,Low,0.151123,Low,No action required
+CUST-000089,0.138898,0.17846,0.137506,Low,Low,Low,0.150419,Low,No action required
+CUST-000003,0.002997,0.338835,0.189015,Low,Low,Low,0.150253,Low,No action required
+CUST-000437,0.132128,0.201185,0.121384,Low,Low,Low,0.150159,Low,No action required
+CUST-000306,0.064253,0.218685,0.22172,Low,Low,Low,0.149949,Low,No action required
+CUST-000122,0.132265,0.160835,0.165318,Low,Low,Low,0.149099,Low,No action required
+CUST-000149,0.217288,0.06349,0.12561,Low,Low,Low,0.148229,Low,No action required
+CUST-000319,0.129332,0.20121,0.116412,Low,Low,Low,0.147665,Low,No action required
+CUST-000264,0.196382,0.08208,0.137103,Low,Low,Low,0.147272,Low,No action required
+CUST-000280,0.068549,0.265715,0.146426,Low,Low,Low,0.147168,Low,No action required
+CUST-000068,0.140666,0.16019,0.142377,Low,Low,Low,0.146951,Low,No action required
+CUST-000454,0.080537,0.20837,0.189925,Low,Low,Low,0.146234,Low,No action required
+CUST-000307,0.00021,0.3077,0.214339,Low,Low,Low,0.145989,Low,No action required
+CUST-000299,0.064725,0.29842,0.10854,Low,Low,Low,0.145787,Low,No action required
+CUST-000142,0.001407,0.38639,0.115672,Low,Medium,Low,0.145468,Low,No action required
+CUST-000199,0.000407,0.3785,0.120233,Low,Medium,Low,0.143791,Low,No action required
+CUST-000412,0.202298,0.070665,0.122851,Low,Low,Low,0.142946,Low,No action required
+CUST-000070,0.140199,0.15899,0.123193,Low,Low,Low,0.141585,Low,No action required
+CUST-000087,0.000295,0.310475,0.193215,Low,Low,Low,0.141579,Low,No action required
+CUST-000191,0.088939,0.235045,0.119765,Low,Low,Low,0.140477,Low,No action required
+CUST-000231,0.07047,0.21342,0.177793,Low,Low,Low,0.140186,Low,No action required
+CUST-000480,0.006388,0.37134,0.102946,Low,Medium,Low,0.140013,Low,No action required
+CUST-000234,0.130876,0.15263,0.140333,Low,Low,Low,0.139766,Low,No action required
+CUST-000117,0.069607,0.232345,0.154727,Low,Low,Low,0.139708,Low,No action required
+CUST-000091,0.134177,0.16873,0.11063,Low,Low,Low,0.138656,Low,No action required
+CUST-000119,0.080529,0.22434,0.139813,Low,Low,Low,0.138493,Low,No action required
+CUST-000230,0.131443,0.127865,0.16193,Low,Low,Low,0.137991,Low,No action required
+CUST-000055,0.138772,0.154185,0.116603,Low,Low,Low,0.137854,Low,No action required
+CUST-000031,0.06788,0.266725,0.108373,Low,Low,Low,0.137657,Low,No action required
+CUST-000107,0.077092,0.197215,0.171099,Low,Low,Low,0.136631,Low,No action required
+CUST-000413,0.128832,0.16626,0.114183,Low,Low,Low,0.136398,Low,No action required
+CUST-000302,0.067977,0.207445,0.173491,Low,Low,Low,0.136196,Low,No action required
+CUST-000009,0.133215,0.15321,0.120128,Low,Low,Low,0.135942,Low,No action required
+CUST-000393,0.072241,0.24702,0.113822,Low,Low,Low,0.13507,Low,No action required
+CUST-000247,0.067835,0.232575,0.132913,Low,Low,Low,0.133526,Low,No action required
+CUST-000497,0.064603,0.213195,0.158269,Low,Low,Low,0.132597,Low,No action required
+CUST-000014,0.129079,0.16417,0.099742,Low,Low,Low,0.132272,Low,No action required
+CUST-000120,0.015775,0.32048,0.115854,Low,Low,Low,0.132206,Low,No action required
+CUST-000259,0.129804,0.13885,0.12631,Low,Low,Low,0.131644,Low,No action required
+CUST-000056,0.066271,0.2472,0.110547,Low,Low,Low,0.131619,Low,No action required
+CUST-000005,0.068086,0.244395,0.110129,Low,Low,Low,0.131489,Low,No action required
+CUST-000265,0.00704,0.318885,0.130621,Low,Low,Low,0.131489,Low,No action required
+CUST-000214,0.065714,0.2205,0.139437,Low,Low,Low,0.130581,Low,No action required
+CUST-000439,0.144107,0.10958,0.129659,Low,Low,Low,0.130137,Low,No action required
+CUST-000219,0.136869,0.148295,0.095827,Low,Low,Low,0.130036,Low,No action required
+CUST-000441,0.066967,0.253405,0.092743,Low,Low,Low,0.129342,Low,No action required
+CUST-000116,0.086267,0.21108,0.107518,Low,Low,Low,0.129024,Low,No action required
+CUST-000337,0.007363,0.339565,0.094651,Low,Low,Low,0.128846,Low,No action required
+CUST-000273,0.138583,0.115,0.124543,Low,Low,Low,0.127998,Low,No action required
+CUST-000201,0.067886,0.191855,0.157283,Low,Low,Low,0.127426,Low,No action required
+CUST-000123,0.067346,0.18659,0.164301,Low,Low,Low,0.127358,Low,No action required
+CUST-000103,0.083705,0.2095,0.106858,Low,Low,Low,0.127232,Low,No action required
+CUST-000499,0.003175,0.34024,0.094455,Low,Low,Low,0.127114,Low,No action required
+CUST-000073,0.074822,0.227455,0.099137,Low,Low,Low,0.126691,Low,No action required
+CUST-000235,0.067078,0.19118,0.152842,Low,Low,Low,0.12575,Low,No action required
+CUST-000131,0.065739,0.24098,0.090684,Low,Low,Low,0.124548,Low,No action required
+CUST-000172,0.065629,0.223535,0.109831,Low,Low,Low,0.124051,Low,No action required
+CUST-000175,0.004567,0.287995,0.137326,Low,Low,Low,0.122785,Low,No action required
+CUST-000359,0.070889,0.229825,0.085152,Low,Low,Low,0.122136,Low,No action required
+CUST-000021,0.148715,0.093125,0.106835,Low,Low,Low,0.121568,Low,No action required
+CUST-000487,0.013767,0.179255,0.239674,Low,Low,Low,0.11989,Low,No action required
+CUST-000008,0.130917,0.116705,0.100624,Low,Low,Low,0.11908,Low,No action required
+CUST-000240,0.065235,0.216275,0.099306,Low,Low,Low,0.119065,Low,No action required
+CUST-000185,0.010102,0.210335,0.205508,Low,Low,Low,0.119023,Low,No action required
+CUST-000362,0.074501,0.152025,0.159241,Low,Low,Low,0.118943,Low,No action required
+CUST-000019,0.070886,0.197815,0.10875,Low,Low,Low,0.118431,Low,No action required
+CUST-000489,0.069134,0.21152,0.095172,Low,Low,Low,0.118359,Low,No action required
+CUST-000414,0.070268,0.213755,0.086033,Low,Low,Low,0.117255,Low,No action required
+CUST-000086,0.131847,0.10803,0.099888,Low,Low,Low,0.116712,Low,No action required
+CUST-000340,0.01003,0.2604,0.133463,Low,Low,Low,0.115999,Low,No action required
+CUST-000295,0.003499,0.306345,0.089023,Low,Low,Low,0.115734,Low,No action required
+CUST-000251,0.129692,0.11214,0.094046,Low,Low,Low,0.115515,Low,No action required
+CUST-000173,0.025273,0.211555,0.161871,Low,Low,Low,0.115307,Low,No action required
+CUST-000312,0.066772,0.214455,0.083259,Low,Low,Low,0.115199,Low,No action required
+CUST-000270,0.004689,0.23121,0.174568,Low,Low,Low,0.115115,Low,No action required
+CUST-000061,0.067685,0.207565,0.089454,Low,Low,Low,0.115091,Low,No action required
+CUST-000129,0.003366,0.275335,0.123818,Low,Low,Low,0.11507,Low,No action required
+CUST-000209,0.006041,0.29657,0.093106,Low,Low,Low,0.114966,Low,No action required
+CUST-000314,0.008207,0.296525,0.088768,Low,Low,Low,0.114843,Low,No action required
+CUST-000151,0.018939,0.29784,0.067155,Low,Low,Low,0.114663,Low,No action required
+CUST-000080,0.136351,0.093385,0.099009,Low,Low,Low,0.114126,Low,No action required
+CUST-000422,0.064055,0.21741,0.080094,Low,Low,Low,0.114071,Low,No action required
+CUST-000183,0.010409,0.238275,0.151117,Low,Low,Low,0.113946,Low,No action required
+CUST-000026,0.128406,0.111855,0.089789,Low,Low,Low,0.113786,Low,No action required
+CUST-000328,0.070391,0.186085,0.103731,Low,Low,Low,0.113434,Low,No action required
+CUST-000246,0.0638,0.212415,0.083786,Low,Low,Low,0.113381,Low,No action required
+CUST-000013,0.002098,0.274875,0.119773,Low,Low,Low,0.11335,Low,No action required
+CUST-000338,0.001815,0.28338,0.103149,Low,Low,Low,0.111618,Low,No action required
+CUST-000261,0.136473,0.080865,0.103285,Low,Low,Low,0.111494,Low,No action required
+CUST-000011,0.132159,0.080515,0.108514,Low,Low,Low,0.110755,Low,No action required
+CUST-000472,0.064512,0.149885,0.144716,Low,Low,Low,0.110175,Low,No action required
+CUST-000188,0.000379,0.279425,0.103504,Low,Low,Low,0.109874,Low,No action required
+CUST-000464,0.078623,0.151995,0.106996,Low,Low,Low,0.107728,Low,No action required
+CUST-000401,0.004685,0.276475,0.09056,Low,Low,Low,0.107691,Low,No action required
+CUST-000141,0.071458,0.16677,0.099782,Low,Low,Low,0.107133,Low,No action required
+CUST-000483,0.012564,0.23157,0.127952,Low,Low,Low,0.107113,Low,No action required
+CUST-000200,0.132877,0.07335,0.100873,Low,Low,Low,0.107018,Low,No action required
+CUST-000195,0.067839,0.179695,0.089341,Low,Low,Low,0.106771,Low,No action required
+CUST-000166,0.007797,0.28273,0.07193,Low,Low,Low,0.10631,Low,No action required
+CUST-000434,0.014153,0.250395,0.098418,Low,Low,Low,0.106092,Low,No action required
+CUST-000477,0.004042,0.28452,0.074977,Low,Low,Low,0.105919,Low,No action required
+CUST-000333,0.067022,0.157705,0.113091,Low,Low,Low,0.105744,Low,No action required
+CUST-000024,0.064267,0.172475,0.097355,Low,Low,Low,0.105001,Low,No action required
+CUST-000076,0.00694,0.268945,0.077005,Low,Low,Low,0.103058,Low,No action required
+CUST-000276,0.070485,0.167655,0.083831,Low,Low,Low,0.102972,Low,No action required
+CUST-000226,0.001052,0.265655,0.086785,Low,Low,Low,0.101866,Low,No action required
+CUST-000300,0.002398,0.27639,0.070118,Low,Low,Low,0.101526,Low,No action required
+CUST-000113,0.066109,0.17445,0.069201,Low,Low,Low,0.099384,Low,No action required
+CUST-000481,0.023868,0.193095,0.120565,Low,Low,Low,0.09881,Low,No action required
+CUST-000308,0.08098,0.14134,0.07128,Low,Low,Low,0.096663,Low,No action required
+CUST-000336,0.01636,0.2229,0.086329,Low,Low,Low,0.095814,Low,No action required
+CUST-000293,0.016221,0.17792,0.138787,Low,Low,Low,0.095372,Low,No action required
+CUST-000473,0.080173,0.112035,0.102407,Low,Low,Low,0.09529,Low,No action required
+CUST-000023,0.064766,0.1517,0.081477,Low,Low,Low,0.095024,Low,No action required
+CUST-000346,0.072124,0.140305,0.08145,Low,Low,Low,0.09491,Low,No action required
+CUST-000108,0.012105,0.22584,0.083884,Low,Low,Low,0.09417,Low,No action required
+CUST-000249,0.002173,0.26096,0.055076,Low,Low,Low,0.093035,Low,No action required
+CUST-000256,0.070485,0.099755,0.124817,Low,Low,Low,0.092849,Low,No action required
+CUST-000409,0.127857,0.05301,0.076404,Low,Low,Low,0.09254,Low,No action required
+CUST-000421,0.079767,0.12636,0.074525,Low,Low,Low,0.092434,Low,No action required
+CUST-000305,0.067418,0.141695,0.077923,Low,Low,Low,0.092327,Low,No action required
+CUST-000424,0.015447,0.22354,0.072626,Low,Low,Low,0.09217,Low,No action required
+CUST-000271,0.094297,0.07972,0.103012,Low,Low,Low,0.092103,Low,No action required
+CUST-000069,0.010367,0.19686,0.111261,Low,Low,Low,0.091538,Low,No action required
+CUST-000189,0.071735,0.134915,0.074539,Low,Low,Low,0.09139,Low,No action required
+CUST-000344,0.071308,0.124425,0.084977,Low,Low,Low,0.09066,Low,No action required
+CUST-000006,0.075378,0.106295,0.09725,Low,Low,Low,0.090121,Low,No action required
+CUST-000469,0.010137,0.190875,0.112079,Low,Low,Low,0.089844,Low,No action required
+CUST-000088,0.078435,0.09967,0.098275,Low,Low,Low,0.089765,Low,No action required
+CUST-000479,0.071156,0.11813,0.087684,Low,Low,Low,0.08938,Low,No action required
+CUST-000233,0.007925,0.207305,0.091437,Low,Low,Low,0.088617,Low,No action required
+CUST-000343,0.082136,0.103015,0.082438,Low,Low,Low,0.088475,Low,No action required
+CUST-000220,0.023305,0.174255,0.101872,Low,Low,Low,0.088232,Low,No action required
+CUST-000133,0.067818,0.12912,0.074832,Low,Low,Low,0.087962,Low,No action required
+CUST-000496,0.013479,0.193015,0.091974,Low,Low,Low,0.086964,Low,No action required
+CUST-000134,0.002664,0.20916,0.088837,Low,Low,Low,0.086156,Low,No action required
+CUST-000198,0.004995,0.18297,0.113517,Low,Low,Low,0.085518,Low,No action required
+CUST-000491,0.066549,0.11059,0.088123,Low,Low,Low,0.085155,Low,No action required
+CUST-000145,0.084178,0.098155,0.065868,Low,Low,Low,0.083794,Low,No action required
+CUST-000059,0.069699,0.112145,0.073478,Low,Low,Low,0.083378,Low,No action required
+CUST-000154,0.000989,0.20347,0.084493,Low,Low,Low,0.082609,Low,No action required
+CUST-000263,0.012864,0.19913,0.06685,Low,Low,Low,0.08224,Low,No action required
+CUST-000330,0.066685,0.122105,0.061696,Low,Low,Low,0.082064,Low,No action required
+CUST-000452,0.064877,0.1216,0.065144,Low,Low,Low,0.081961,Low,No action required
+CUST-000104,0.005705,0.15953,0.116377,Low,Low,Low,0.07952,Low,No action required
+CUST-000366,0.066498,0.1112,0.06231,Low,Low,Low,0.078862,Low,No action required
+CUST-000012,0.004942,0.209345,0.054784,Low,Low,Low,0.078723,Low,No action required
+CUST-000467,0.08501,0.07601,0.069519,Low,Low,Low,0.078437,Low,No action required
+CUST-000060,0.067183,0.10048,0.071802,Low,Low,Low,0.078327,Low,No action required
+CUST-000126,0.000662,0.192055,0.075198,Low,Low,Low,0.076714,Low,No action required
+CUST-000036,0.066216,0.09763,0.067605,Low,Low,Low,0.075987,Low,No action required
+CUST-000449,0.007713,0.190455,0.059117,Low,Low,Low,0.075387,Low,No action required
+CUST-000083,0.074395,0.079935,0.071336,Low,Low,Low,0.075292,Low,No action required
+CUST-000321,0.007236,0.166445,0.083017,Low,Low,Low,0.073944,Low,No action required
+CUST-000272,0.006782,0.1902,0.053323,Low,Low,Low,0.073443,Low,No action required
+CUST-000313,0.006982,0.17599,0.06838,Low,Low,Low,0.073034,Low,No action required
+CUST-000274,0.074798,0.06403,0.071783,Low,Low,Low,0.070814,Low,No action required
+CUST-000211,0.004557,0.148545,0.096149,Low,Low,Low,0.070651,Low,No action required
+CUST-000098,0.001463,0.189705,0.051619,Low,Low,Low,0.070475,Low,No action required
+CUST-000040,0.002206,0.191645,0.045606,Low,Low,Low,0.069888,Low,No action required
+CUST-000297,0.066005,0.078145,0.066613,Low,Low,Low,0.069799,Low,No action required
+CUST-000384,0.015164,0.129515,0.094724,Low,Low,Low,0.069359,Low,No action required
+CUST-000034,0.003631,0.137005,0.095373,Low,Low,Low,0.066579,Low,No action required
+CUST-000286,0.001605,0.17427,0.050151,Low,Low,Low,0.065541,Low,No action required
+CUST-000150,0.003142,0.13929,0.086002,Low,Low,Low,0.064701,Low,No action required
+CUST-000460,0.00145,0.135675,0.092712,Low,Low,Low,0.064533,Low,No action required
+CUST-000105,0.010855,0.127305,0.067836,Low,Low,Low,0.060035,Low,No action required
+CUST-000165,0.002892,0.12344,0.08378,Low,Low,Low,0.059278,Low,No action required
+CUST-000205,0.003688,0.14091,0.055735,Low,Low,Low,0.057866,Low,No action required
+CUST-000217,0.003246,0.115055,0.082114,Low,Low,Low,0.056506,Low,No action required
+CUST-000099,0.006548,0.129055,0.059302,Low,Low,Low,0.056489,Low,No action required
+CUST-000365,0.011299,0.11213,0.066525,Low,Low,Low,0.055355,Low,No action required
+CUST-000285,0.002191,0.143065,0.044844,Low,Low,Low,0.055116,Low,No action required
+CUST-000196,0.011904,0.105325,0.063535,Low,Low,Low,0.052838,Low,No action required
+CUST-000146,0.065084,0.040715,0.042823,Low,Low,Low,0.052208,Low,No action required
+CUST-000067,0.003616,0.12501,0.048799,Low,Low,Low,0.05133,Low,No action required
+CUST-000027,0.003182,0.1264,0.041382,Low,Low,Low,0.049697,Low,No action required
+CUST-000459,0.003528,0.120355,0.045846,Low,Low,Low,0.049156,Low,No action required
+CUST-000100,0.01397,0.079015,0.065997,Low,Low,Low,0.04649,Low,No action required
+CUST-000212,0.000983,0.122555,0.031422,Low,Low,Low,0.045064,Low,No action required
+CUST-000254,0.009995,0.09688,0.04396,Low,Low,Low,0.044552,Low,No action required
+CUST-000427,0.008571,0.082705,0.057809,Low,Low,Low,0.043121,Low,No action required
+CUST-000065,0.014287,0.08516,0.04364,Low,Low,Low,0.042887,Low,No action required
+CUST-000311,0.015654,0.09411,0.023513,Low,Low,Low,0.041156,Low,No action required
+CUST-000372,0.00381,0.100245,0.036479,Low,Low,Low,0.040908,Low,No action required
+CUST-000339,0.002559,0.09442,0.034637,Low,Low,Low,0.038137,Low,No action required
+CUST-000174,0.002974,0.094725,0.027086,Low,Low,Low,0.036527,Low,No action required
+CUST-000404,0.000802,0.092385,0.027781,Low,Low,Low,0.035022,Low,No action required
+CUST-000128,0.00553,0.063565,0.042842,Low,Low,Low,0.032268,Low,No action required
+CUST-000492,0.007794,0.053905,0.028146,Low,Low,Low,0.026715,Low,No action required
+CUST-000239,0.004302,0.06177,0.01947,Low,Low,Low,0.025334,Low,No action required
+CUST-000417,0.002366,0.05577,0.022509,Low,Low,Low,0.023423,Low,No action required
+CUST-000440,0.003451,0.04968,0.027297,Low,Low,Low,0.023281,Low,No action required
