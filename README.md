@@ -119,6 +119,14 @@ Milestone 7 detects unusual customer risk patterns using the processed synthetic
 python -m risk_platform.anomaly.anomaly_detector
 ```
 
+## Experimentation, A/B Testing, And Champion Vs Challenger Evaluation
+
+Milestone 8 simulates treatment/control analysis, pre/post intervention analysis, statistical significance testing, experiment impact reporting, and Champion vs Challenger model comparison evidence. It uses local synthetic outcomes and existing model metrics without retraining models or connecting to AWS.
+
+```bash
+python -m risk_platform.experimentation.experiment_runner
+```
+
 ## AWS Service Mapping
 
 This project does not connect to AWS yet. The folder and module structure is designed so local components can later map to AWS services:

@@ -91,6 +91,7 @@ This framework defines how each project milestone will be evaluated. The goal is
 
 - Goal: Simulate treatment and control outcomes for a synthetic business intervention.
 - Evidence artifact: A/B testing notebook or script, effect size summary, and significance test output.
+- Expected evidence artifacts: `outputs/ab_test_results.json`, `outputs/pre_post_intervention_analysis.json`, `outputs/champion_challenger_comparison.json`, `reports/experiment_impact_report.md`, `reports/champion_challenger_report.md`, `docs/experimentation_design.md`.
 - Success criteria: Treatment/control groups, outcome metrics, and assumptions are documented.
 - Example metric or quality check: Difference in means or proportions with p-value and confidence interval.
 - Portfolio value: Demonstrates experimentation skills relevant to product, risk, and operations decisions.

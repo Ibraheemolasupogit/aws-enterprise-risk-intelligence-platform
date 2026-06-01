@@ -1,0 +1,14 @@
+{
+  "pre_period_size": 227,
+  "post_period_size": 273,
+  "pre_conversion_rate": 0.185,
+  "post_conversion_rate": 0.2454,
+  "conversion_lift": 0.0604,
+  "conversion_relative_lift": 0.3264,
+  "p_value_conversion_difference": 0.103402,
+  "pre_retention_rate": 0.8767,
+  "post_retention_rate": 0.9121,
+  "retention_lift": 0.0354,
+  "retention_relative_lift": 0.0404,
+  "p_value_retention_difference": 0.196234
+}

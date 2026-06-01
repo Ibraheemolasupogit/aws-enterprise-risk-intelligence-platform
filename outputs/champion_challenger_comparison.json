@@ -1,0 +1,44 @@
+{
+  "comparison_type": "simulated_champion_vs_challenger",
+  "note": "Challenger metrics are deterministic simulations; no models are retrained in this milestone.",
+  "comparisons": {
+    "fraud": {
+      "model_type": "fraud",
+      "primary_metric": "roc_auc",
+      "secondary_metric": "recall",
+      "champion": {
+        "roc_auc": 0.6355,
+        "precision": 0.2381,
+        "recall": 0.2632,
+        "f1": 0.25
+      },
+      "challenger": {
+        "roc_auc": 0.6535,
+        "precision": 0.2281,
+        "recall": 0.2982,
+        "f1": 0.262
+      },
+      "selected_winner": "challenger",
+      "decision_reason": "Selected by higher ROC-AUC, with recall as tie-breaker."
+    },
+    "churn": {
+      "model_type": "churn",
+      "primary_metric": "roc_auc",
+      "secondary_metric": "recall",
+      "champion": {
+        "roc_auc": 0.6333,
+        "precision": 0.1667,
+        "recall": 0.1,
+        "f1": 0.125
+      },
+      "challenger": {
+        "roc_auc": 0.6453,
+        "precision": 0.1747,
+        "recall": 0.12,
+        "f1": 0.135
+      },
+      "selected_winner": "challenger",
+      "decision_reason": "Selected by higher ROC-AUC, with recall as tie-breaker."
+    }
+  }
+}

@@ -33,6 +33,9 @@ reports/*
 !outputs/anomaly_scores.csv
 !outputs/anomaly_detection_summary.json
 !outputs/root_cause_analysis.csv
+!outputs/ab_test_results.json
+!outputs/pre_post_intervention_analysis.json
+!outputs/champion_challenger_comparison.json
 !reports/.gitkeep
 !reports/*.md
 

@@ -1,0 +1,13 @@
+{
+  "treatment_group_size": 254,
+  "control_group_size": 246,
+  "treatment_conversion_rate": 0.2244,
+  "control_conversion_rate": 0.2114,
+  "absolute_lift": 0.013,
+  "relative_lift": 0.0616,
+  "p_value_conversion_difference": 0.724302,
+  "treatment_retention_rate": 0.8976,
+  "control_retention_rate": 0.8943,
+  "retention_rate_difference": 0.0033,
+  "p_value_retention_difference": 0.902974
+}
