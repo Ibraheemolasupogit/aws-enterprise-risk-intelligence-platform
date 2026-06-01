@@ -78,6 +78,15 @@ Sample files can be regenerated locally with:
 python -m risk_platform.ingestion.synthetic_data_generator
 ```
 
+## Data Validation And EDA Layer
+
+Milestone 3 adds lightweight data quality checks and exploratory evidence before model development begins. The validation layer checks required columns, missing values, duplicate identifiers, numeric ranges, label validity, experiment group validity, treatment/control balance, and pre/post period values. The reporting layer writes local Markdown evidence reports for validation and EDA.
+
+```bash
+python -m risk_platform.validation.validation_report
+python -m risk_platform.reporting.eda_report
+```
+
 ## AWS Service Mapping
 
 This project does not connect to AWS yet. The folder and module structure is designed so local components can later map to AWS services:

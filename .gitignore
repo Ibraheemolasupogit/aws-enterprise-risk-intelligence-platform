@@ -25,6 +25,7 @@ reports/*
 !data/processed/.gitkeep
 !outputs/.gitkeep
 !reports/.gitkeep
+!reports/*.md
 
 # OS and editor files
 .DS_Store

@@ -21,7 +21,8 @@ This framework defines how each project milestone will be evaluated. The goal is
 ## Data Validation
 
 - Goal: Validate schema, missingness, ranges, duplicates, and target integrity before downstream use.
-- Evidence artifact: Validation module, validation report, and tests for expected failures.
+- Evidence artifact: Validation module, validation report, EDA summary, and tests for expected failures.
+- Expected evidence artifacts: `reports/data_validation_report.md`, `reports/eda_summary_report.md`.
 - Success criteria: Invalid records are flagged clearly and validation results are reproducible.
 - Example metric or quality check: Missing value rate, duplicate rate, schema pass/fail status.
 - Portfolio value: Shows production-minded data quality thinking.
