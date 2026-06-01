@@ -142,6 +142,7 @@ This framework defines how each project milestone will be evaluated. The goal is
 
 - Goal: Package the project as a clear, reviewable portfolio artifact.
 - Evidence artifact: README, docs, reports, notebooks, tests, and milestone evidence index.
+- Expected evidence artifacts: `docs/evidence_index.md`, `docs/aws_architecture_summary.md`, `docs/interview_talking_points.md`, `reports/final_project_report.md`, `docs/portfolio_readiness_checklist.md`.
 - Success criteria: A reviewer can understand the business problem, technical design, results, and AWS mapping.
 - Example metric or quality check: All major milestones have evidence artifacts and passing tests.
 - Portfolio value: Converts the repo from code samples into a coherent enterprise ML case study.
