@@ -103,6 +103,14 @@ Milestone 5 trains a baseline fraud classifier using the processed synthetic fea
 python -m risk_platform.fraud.fraud_model
 ```
 
+## Churn Prediction Model
+
+Milestone 6 trains a baseline churn classifier using the processed synthetic feature dataset. The workflow produces model metrics, churn predictions, churn risk bands, lift analysis, and a portfolio-ready evaluation report while staying fully local.
+
+```bash
+python -m risk_platform.churn.churn_model
+```
+
 ## AWS Service Mapping
 
 This project does not connect to AWS yet. The folder and module structure is designed so local components can later map to AWS services:

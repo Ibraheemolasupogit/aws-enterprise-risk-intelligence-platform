@@ -28,6 +28,8 @@ reports/*
 !outputs/feature_summary.json
 !outputs/fraud_model_metrics.json
 !outputs/fraud_predictions.csv
+!outputs/churn_model_metrics.json
+!outputs/churn_predictions.csv
 !reports/.gitkeep
 !reports/*.md
 

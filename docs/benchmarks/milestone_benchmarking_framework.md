@@ -49,6 +49,7 @@ This framework defines how each project milestone will be evaluated. The goal is
 
 - Goal: Train a baseline churn classifier on synthetic customer behavior data.
 - Evidence artifact: Training script, lift analysis, evaluation report, and model summary.
+- Expected evidence artifacts: `outputs/churn_model_metrics.json`, `outputs/churn_predictions.csv`, `reports/churn_model_report.md`, `docs/churn_model_design.md`.
 - Success criteria: Baseline model reports precision, recall, F1, ROC-AUC, and lift.
 - Example metric or quality check: Lift at top decile is calculated and explained.
 - Portfolio value: Connects ML outputs to business retention decisions.
