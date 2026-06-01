@@ -23,7 +23,9 @@ outputs/*
 reports/*
 !data/raw/.gitkeep
 !data/processed/.gitkeep
+!data/processed/ml_feature_dataset.csv
 !outputs/.gitkeep
+!outputs/feature_summary.json
 !reports/.gitkeep
 !reports/*.md
 

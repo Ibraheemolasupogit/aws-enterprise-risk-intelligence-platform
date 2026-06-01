@@ -1,0 +1,64 @@
+{
+  "row_count": 500,
+  "column_count": 31,
+  "duplicate_customer_id_count": 0,
+  "missing_value_count": 0,
+  "feature_groups": {
+    "customer_features": [
+      "account_age_days",
+      "customer_segment_encoded",
+      "region_encoded",
+      "acquisition_channel_encoded"
+    ],
+    "transaction_features": [
+      "transaction_count",
+      "average_transaction_amount",
+      "max_transaction_amount",
+      "total_transaction_amount",
+      "failed_transaction_count",
+      "high_value_transaction_flag",
+      "transaction_risk_score"
+    ],
+    "support_features": [
+      "support_ticket_count",
+      "average_resolution_time_hours",
+      "complaint_count",
+      "satisfaction_score",
+      "support_risk_score"
+    ],
+    "behavioural_features": [
+      "login_count_30d",
+      "days_since_last_login",
+      "session_count_30d",
+      "activity_decline_score",
+      "engagement_risk_score"
+    ],
+    "experimentation_features": [
+      "treatment_flag",
+      "experiment_group_encoded",
+      "pre_post_period_encoded",
+      "intervention_exposed",
+      "conversion_flag",
+      "retention_flag"
+    ],
+    "target_columns": [
+      "fraud_label",
+      "churn_label",
+      "anomaly_label"
+    ]
+  },
+  "target_distributions": {
+    "fraud_label": {
+      "0": 403,
+      "1": 97
+    },
+    "churn_label": {
+      "0": 452,
+      "1": 48
+    },
+    "anomaly_label": {
+      "0": 465,
+      "1": 35
+    }
+  }
+}

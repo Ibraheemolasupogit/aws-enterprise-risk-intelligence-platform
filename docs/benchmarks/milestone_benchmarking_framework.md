@@ -31,6 +31,7 @@ This framework defines how each project milestone will be evaluated. The goal is
 
 - Goal: Build reusable feature transformations for risk, churn, anomaly, and experimentation workflows.
 - Evidence artifact: Feature engineering module, feature list, and transformation tests.
+- Expected evidence artifacts: `data/processed/ml_feature_dataset.csv`, `outputs/feature_summary.json`, `reports/feature_engineering_report.md`, `docs/feature_engineering_design.md`.
 - Success criteria: Features are deterministic, documented, and reusable across notebooks and scripts.
 - Example metric or quality check: No unexpected nulls after transformation and stable feature counts.
 - Portfolio value: Demonstrates ML-ready data preparation and reusable design.

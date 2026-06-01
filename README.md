@@ -87,6 +87,14 @@ python -m risk_platform.validation.validation_report
 python -m risk_platform.reporting.eda_report
 ```
 
+## Feature Engineering Layer
+
+Milestone 4 creates ML-ready features from synthetic customer, transaction, support, behavioral, and experimentation data. The feature builder produces a reusable customer-level feature table, a JSON feature summary, and a Markdown evidence report before any model training begins.
+
+```bash
+python -m risk_platform.features.feature_builder
+```
+
 ## AWS Service Mapping
 
 This project does not connect to AWS yet. The folder and module structure is designed so local components can later map to AWS services:
