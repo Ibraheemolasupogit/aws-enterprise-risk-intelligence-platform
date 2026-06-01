@@ -68,6 +68,16 @@ Future iterations may include:
 - `reporting`: Report generation and portfolio-ready output summaries.
 - `utils`: Shared helpers for configuration, paths, logging, and reproducibility.
 
+## Synthetic Data Layer
+
+The repository uses realistic synthetic data to support local development before any future AWS deployment. The synthetic data layer generates customer, transaction, support, behavioral, risk label, experiment assignment, and pre/post intervention fields for fraud detection, churn prediction, anomaly detection, A/B testing simulation, and Champion vs Challenger evaluation.
+
+Sample files can be regenerated locally with:
+
+```bash
+python -m risk_platform.ingestion.synthetic_data_generator
+```
+
 ## AWS Service Mapping
 
 This project does not connect to AWS yet. The folder and module structure is designed so local components can later map to AWS services:
