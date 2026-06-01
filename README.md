@@ -111,6 +111,14 @@ Milestone 6 trains a baseline churn classifier using the processed synthetic fea
 python -m risk_platform.churn.churn_model
 ```
 
+## Anomaly Detection And Root-Cause Analysis
+
+Milestone 7 detects unusual customer risk patterns using the processed synthetic feature dataset and produces interpretable root-cause style evidence. The workflow generates anomaly scores, risk bands, likely top drivers, and investigation-ready reports while staying fully local.
+
+```bash
+python -m risk_platform.anomaly.anomaly_detector
+```
+
 ## AWS Service Mapping
 
 This project does not connect to AWS yet. The folder and module structure is designed so local components can later map to AWS services:

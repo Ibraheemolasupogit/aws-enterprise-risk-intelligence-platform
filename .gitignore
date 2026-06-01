@@ -30,6 +30,9 @@ reports/*
 !outputs/fraud_predictions.csv
 !outputs/churn_model_metrics.json
 !outputs/churn_predictions.csv
+!outputs/anomaly_scores.csv
+!outputs/anomaly_detection_summary.json
+!outputs/root_cause_analysis.csv
 !reports/.gitkeep
 !reports/*.md
 

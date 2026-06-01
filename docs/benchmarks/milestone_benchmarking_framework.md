@@ -58,6 +58,7 @@ This framework defines how each project milestone will be evaluated. The goal is
 
 - Goal: Detect unusual records or periods in synthetic operational or transaction data.
 - Evidence artifact: Anomaly detection script, anomaly score output, and summary report.
+- Expected evidence artifacts: `outputs/anomaly_scores.csv`, `outputs/anomaly_detection_summary.json`, `outputs/root_cause_analysis.csv`, `reports/anomaly_detection_report.md`, `reports/root_cause_analysis_report.md`, `docs/anomaly_detection_design.md`.
 - Success criteria: Anomaly rates and top suspicious records are explainable.
 - Example metric or quality check: Anomaly rate remains within expected configured threshold.
 - Portfolio value: Demonstrates unsupervised risk monitoring concepts.

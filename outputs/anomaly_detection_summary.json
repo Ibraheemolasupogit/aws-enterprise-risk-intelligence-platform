@@ -1,0 +1,50 @@
+{
+  "model_name": "IsolationForest",
+  "row_count": 500,
+  "feature_count": 25,
+  "features_used": [
+    "account_age_days",
+    "customer_segment_encoded",
+    "region_encoded",
+    "acquisition_channel_encoded",
+    "transaction_count",
+    "average_transaction_amount",
+    "max_transaction_amount",
+    "total_transaction_amount",
+    "failed_transaction_count",
+    "high_value_transaction_flag",
+    "transaction_risk_score",
+    "support_ticket_count",
+    "average_resolution_time_hours",
+    "complaint_count",
+    "satisfaction_score",
+    "support_risk_score",
+    "login_count_30d",
+    "days_since_last_login",
+    "session_count_30d",
+    "activity_decline_score",
+    "engagement_risk_score",
+    "treatment_flag",
+    "experiment_group_encoded",
+    "pre_post_period_encoded",
+    "intervention_exposed"
+  ],
+  "anomaly_count": 35,
+  "anomaly_rate": 0.07,
+  "risk_band_distribution": {
+    "High": 21,
+    "Low": 333,
+    "Medium": 146
+  },
+  "top_driver_distribution": {
+    "total_transaction_amount": 14,
+    "average_transaction_amount": 4,
+    "average_resolution_time_hours": 4,
+    "days_since_last_login": 3,
+    "complaint_count": 3,
+    "max_transaction_amount": 2,
+    "failed_transaction_count": 2,
+    "support_ticket_count": 2,
+    "region_encoded": 1
+  }
+}
