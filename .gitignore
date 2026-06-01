@@ -26,6 +26,8 @@ reports/*
 !data/processed/ml_feature_dataset.csv
 !outputs/.gitkeep
 !outputs/feature_summary.json
+!outputs/fraud_model_metrics.json
+!outputs/fraud_predictions.csv
 !reports/.gitkeep
 !reports/*.md
 

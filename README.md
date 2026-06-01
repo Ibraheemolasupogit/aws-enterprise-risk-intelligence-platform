@@ -95,6 +95,14 @@ Milestone 4 creates ML-ready features from synthetic customer, transaction, supp
 python -m risk_platform.features.feature_builder
 ```
 
+## Fraud Detection Model
+
+Milestone 5 trains a baseline fraud classifier using the processed synthetic feature dataset. The workflow produces model metrics, fraud predictions, probability-based risk bands, and a portfolio-ready evaluation report while staying fully local.
+
+```bash
+python -m risk_platform.fraud.fraud_model
+```
+
 ## AWS Service Mapping
 
 This project does not connect to AWS yet. The folder and module structure is designed so local components can later map to AWS services:

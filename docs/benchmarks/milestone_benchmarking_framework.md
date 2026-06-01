@@ -40,6 +40,7 @@ This framework defines how each project milestone will be evaluated. The goal is
 
 - Goal: Train a baseline fraud classifier on synthetic data.
 - Evidence artifact: Training script, evaluation report, confusion matrix, and model summary.
+- Expected evidence artifacts: `outputs/fraud_model_metrics.json`, `outputs/fraud_predictions.csv`, `reports/fraud_model_report.md`, `docs/fraud_model_design.md`.
 - Success criteria: Baseline model runs end to end and reports precision, recall, F1, and ROC-AUC.
 - Example metric or quality check: Recall and precision are reported with class imbalance noted.
 - Portfolio value: Shows applied classification skills for a common enterprise risk use case.
