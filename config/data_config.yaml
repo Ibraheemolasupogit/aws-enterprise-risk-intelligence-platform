@@ -1,0 +1,15 @@
+data:
+  raw_dir: data/raw
+  processed_dir: data/processed
+  sample_dir: data/sample
+  synthetic_only: true
+  connect_to_aws: false
+
+datasets:
+  fraud:
+    target_column: is_fraud
+  churn:
+    target_column: churned
+  experimentation:
+    treatment_column: treatment_group
+    outcome_column: outcome

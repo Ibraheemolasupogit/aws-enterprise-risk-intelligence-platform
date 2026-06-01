@@ -1,0 +1,45 @@
+aws_mapping:
+  storage:
+    local: data/
+    future_aws: Amazon S3
+  ingestion:
+    local: src/risk_platform/ingestion
+    future_aws:
+      - AWS Glue
+      - AWS Lambda
+      - Amazon Kinesis
+  warehouse:
+    local: data/processed
+    future_aws: Amazon Redshift
+  feature_store:
+    local: src/risk_platform/features
+    future_aws: Amazon SageMaker Feature Store
+  training:
+    local:
+      - src/risk_platform/fraud
+      - src/risk_platform/churn
+      - src/risk_platform/anomaly
+    future_aws: Amazon SageMaker
+  pipelines:
+    local: local Python workflows
+    future_aws: Amazon SageMaker Pipelines
+  registry:
+    local: src/risk_platform/evaluation
+    future_aws: Amazon SageMaker Model Registry
+  inference:
+    local: src/risk_platform/inference
+    future_aws:
+      - Amazon SageMaker endpoints
+      - Amazon SageMaker Batch Transform
+      - AWS Lambda
+  monitoring:
+    local: src/risk_platform/monitoring
+    future_aws:
+      - Amazon CloudWatch
+      - Amazon SageMaker Model Monitor
+  containers:
+    local: future Docker image
+    future_aws: Amazon ECR
+  access_control:
+    local: not_applicable_initially
+    future_aws: AWS IAM

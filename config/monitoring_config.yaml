@@ -1,0 +1,16 @@
+monitoring:
+  enabled: true
+  local_only: true
+
+checks:
+  data_quality:
+    - missing_values
+    - duplicate_rows
+    - schema_drift
+  model:
+    - prediction_distribution
+    - performance_decay
+  business:
+    - fraud_rate
+    - churn_rate
+    - experiment_lift

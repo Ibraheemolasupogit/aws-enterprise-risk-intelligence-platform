@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aws-enterprise-risk-intelligence-platform"
+version = "0.1.0"
+description = "A local synthetic-data foundation for an AWS-oriented Enterprise Risk Intelligence Platform."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+  { name = "Portfolio Project" }
+]
+dependencies = [
+  "pandas",
+  "numpy",
+  "scikit-learn",
+  "matplotlib",
+  "seaborn",
+  "pyyaml"
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest",
+  "jupyter"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

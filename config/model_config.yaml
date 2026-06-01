@@ -1,0 +1,23 @@
+models:
+  random_state: 42
+  test_size: 0.2
+
+fraud:
+  baseline_model: logistic_regression
+  metrics:
+    - precision
+    - recall
+    - f1
+    - roc_auc
+
+churn:
+  baseline_model: random_forest
+  metrics:
+    - accuracy
+    - precision
+    - recall
+    - roc_auc
+
+anomaly:
+  baseline_model: isolation_forest
+  contamination: 0.05
