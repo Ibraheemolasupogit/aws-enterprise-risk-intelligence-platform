@@ -2,6 +2,15 @@ monitoring:
   enabled: true
   local_only: true
 
+thresholds:
+  drift_mean_change_threshold: 0.25
+  fraud_auc_warning_threshold: 0.70
+  churn_auc_warning_threshold: 0.70
+  minimum_recall_threshold: 0.25
+  high_risk_volume_warning_threshold: 50
+  anomaly_rate_warning_threshold: 0.10
+  experiment_p_value_warning_threshold: 0.05
+
 checks:
   data_quality:
     - missing_values

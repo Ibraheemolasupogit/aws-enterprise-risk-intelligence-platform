@@ -127,6 +127,14 @@ Milestone 8 simulates treatment/control analysis, pre/post intervention analysis
 python -m risk_platform.experimentation.experiment_runner
 ```
 
+## Monitoring And Drift Detection
+
+Milestone 9 creates local monitoring evidence for data drift, prediction drift, risk distribution, and model health before any future AWS deployment. The monitoring runner writes drift outputs, prediction summaries, consolidated health status, and portfolio-ready monitoring reports.
+
+```bash
+python -m risk_platform.monitoring.monitoring_runner
+```
+
 ## AWS Service Mapping
 
 This project does not connect to AWS yet. The folder and module structure is designed so local components can later map to AWS services:

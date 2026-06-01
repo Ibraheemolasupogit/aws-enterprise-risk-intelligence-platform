@@ -1,0 +1,51 @@
+{
+  "overall_status": "WARN",
+  "risks": [
+    "fraud_auc_below_threshold",
+    "churn_auc_below_threshold",
+    "churn_recall_below_threshold",
+    "experiment_conversion_not_statistically_significant"
+  ],
+  "recommended_next_actions": [
+    "Review fraud features, threshold strategy, and class imbalance handling.",
+    "Review churn engagement/support features and retention targeting logic.",
+    "Tune churn model or threshold to improve high-risk customer capture.",
+    "Treat experiment lift as directional until more evidence is available."
+  ],
+  "thresholds": {
+    "drift_mean_change_threshold": 0.25,
+    "fraud_auc_warning_threshold": 0.7,
+    "churn_auc_warning_threshold": 0.7,
+    "minimum_recall_threshold": 0.25,
+    "high_risk_volume_warning_threshold": 50,
+    "anomaly_rate_warning_threshold": 0.1,
+    "experiment_p_value_warning_threshold": 0.05
+  },
+  "fraud": {
+    "roc_auc": 0.6355,
+    "precision": 0.2381,
+    "recall": 0.2632,
+    "f1": 0.25,
+    "status": "WARN"
+  },
+  "churn": {
+    "roc_auc": 0.6333,
+    "precision": 0.1667,
+    "recall": 0.1,
+    "f1": 0.125,
+    "lift_at_top_decile": 2.0,
+    "status": "WARN"
+  },
+  "anomaly": {
+    "anomaly_rate": 0.07,
+    "anomaly_count": 35,
+    "status": "PASS"
+  },
+  "experimentation": {
+    "conversion_absolute_lift": 0.013,
+    "conversion_p_value": 0.724302,
+    "retention_rate_difference": 0.0033,
+    "retention_p_value": 0.902974,
+    "status": "WARN"
+  }
+}

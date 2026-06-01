@@ -124,6 +124,7 @@ This framework defines how each project milestone will be evaluated. The goal is
 
 - Goal: Monitor synthetic data quality, prediction distributions, model performance, and business KPIs.
 - Evidence artifact: Monitoring report, drift summary, and health status output.
+- Expected evidence artifacts: `outputs/data_drift_report.csv`, `outputs/prediction_monitoring_summary.json`, `outputs/model_health_summary.json`, `reports/monitoring_report.md`, `reports/model_health_report.md`, `docs/monitoring_design.md`.
 - Success criteria: Drift or degradation is flagged with thresholds and suggested investigation paths.
 - Example metric or quality check: Population stability index, distribution shift, or performance delta.
 - Portfolio value: Shows mature post-deployment ML thinking.

@@ -1,0 +1,52 @@
+{
+  "fraud": {
+    "row_count": 100,
+    "probability_summary": {
+      "mean": 0.389474,
+      "min": 0.110326,
+      "max": 0.610766,
+      "std": 0.115846
+    },
+    "risk_band_distribution": {
+      "High": 1,
+      "Low": 25,
+      "Medium": 74
+    },
+    "high_risk_count": 1
+  },
+  "churn": {
+    "row_count": 100,
+    "probability_summary": {
+      "mean": 0.269948,
+      "min": 0.051129,
+      "max": 0.707613,
+      "std": 0.131769
+    },
+    "risk_band_distribution": {
+      "High": 2,
+      "Low": 62,
+      "Medium": 36
+    },
+    "high_risk_count": 2
+  },
+  "anomaly": {
+    "row_count": 500,
+    "score_summary": {
+      "mean": 0.338465,
+      "min": 0.0,
+      "max": 1.0,
+      "std": 0.186853
+    },
+    "risk_band_distribution": {
+      "High": 21,
+      "Low": 333,
+      "Medium": 146
+    },
+    "high_risk_count": 21
+  },
+  "overall": {
+    "total_high_risk_count": 24,
+    "high_risk_volume_warning_threshold": 50,
+    "model_health_status": "PASS"
+  }
+}

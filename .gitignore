@@ -36,6 +36,9 @@ reports/*
 !outputs/ab_test_results.json
 !outputs/pre_post_intervention_analysis.json
 !outputs/champion_challenger_comparison.json
+!outputs/data_drift_report.csv
+!outputs/prediction_monitoring_summary.json
+!outputs/model_health_summary.json
 !reports/.gitkeep
 !reports/*.md
 
