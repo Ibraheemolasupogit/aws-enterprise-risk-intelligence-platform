@@ -1,7 +1,7 @@
 [
   {
     "customer_id": "CUST-000042",
-    "request_timestamp": "2026-06-01T10:54:08.293397+00:00",
+    "request_timestamp": "2026-06-02T06:11:21.253142+00:00",
     "fraud_risk_score": 0.73631,
     "churn_risk_score": 0.46734,
     "anomaly_risk_score": 0.44961,
@@ -12,7 +12,7 @@
   },
   {
     "customer_id": "CUST-000058",
-    "request_timestamp": "2026-06-01T10:54:08.293397+00:00",
+    "request_timestamp": "2026-06-02T06:11:21.253142+00:00",
     "fraud_risk_score": 0.78805,
     "churn_risk_score": 0.249905,
     "anomaly_risk_score": 0.458624,
@@ -23,7 +23,7 @@
   },
   {
     "customer_id": "CUST-000093",
-    "request_timestamp": "2026-06-01T10:54:08.293397+00:00",
+    "request_timestamp": "2026-06-02T06:11:21.253142+00:00",
     "fraud_risk_score": 0.773931,
     "churn_risk_score": 0.28918,
     "anomaly_risk_score": 0.387567,
@@ -34,7 +34,7 @@
   },
   {
     "customer_id": "CUST-000130",
-    "request_timestamp": "2026-06-01T10:54:08.293397+00:00",
+    "request_timestamp": "2026-06-02T06:11:21.253142+00:00",
     "fraud_risk_score": 0.703475,
     "churn_risk_score": 0.32349,
     "anomaly_risk_score": 0.382097,
@@ -45,7 +45,7 @@
   },
   {
     "customer_id": "CUST-000252",
-    "request_timestamp": "2026-06-01T10:54:08.293397+00:00",
+    "request_timestamp": "2026-06-02T06:11:21.253142+00:00",
     "fraud_risk_score": 0.769151,
     "churn_risk_score": 0.164205,
     "anomaly_risk_score": 0.448685,
